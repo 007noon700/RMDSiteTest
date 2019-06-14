@@ -9,7 +9,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Hello!
 
-Welcome to my site.
+Welcome to my site. Click on the images below to view the gallery associated.
 
 [![Becca](https://images.pixieset.com/55791141/1d02e4a774fe4a58f0125dd4aa44b3c7-large.jpg){ width=25% }](https://alexchowphotography.pixieset.com/beccapoulsbo/)         [![Red Rock Canyon](https://images.pixieset.com/70134931/71f4d0eea2d1321c5a781c3f336d52b6-large.jpg){ width=25% }](https://alexchowphotography.pixieset.com/redrockcanyon/)         [![Calli & Diane](https://images.pixieset.com/07188831/19118229699ed8c61905e08a2cf502ad-large.jpg){ width=25% asp=.8 }](https://alexchowphotography.pixieset.com/callianddianepoulsbo/)
 
+My resume is found below
+```{r label, out.width = "85%", out.height="100%", echo=FALSE}
+knitr::include_graphics("Resume3.pdf")
+```

@@ -1,5 +1,6 @@
 library(XML)
 library(dplyr)
+library(plyr)
 ituneslib <- readKeyValueDB("iTunes Music Library.xml")
 tracksxml <- ituneslib$Tracks
 tracksxml1 <- lapply(tracksxml, data.frame)
