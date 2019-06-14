@@ -1,0 +1,16 @@
+---
+title: "R Code Example"
+output: html_document
+---
+I wrote some pretty basic R code that analyzes iTunes libraries. I included this as a proof of concept, it's not the prettiest, nor is it the best R code ever, but it gets the job done to show what can be done.
+ ```{r hello}
+ summary(songs)
+ ```
+
+## Showing Findings
+
+Here's a very primitive plot of genre vs play count. I could have played with it more but really we're proving that it can be done, not showcasing my R ability.
+
+```{r foo,echo=FALSE}
+with(songs,plot(songs$tracks.Genre, songs$tracks.Play.Count))
+```

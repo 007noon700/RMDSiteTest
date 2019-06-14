@@ -1,0 +1,8 @@
+name: "Alex Chow"
+navbar:
+  title: "Alex Chow"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "R code test"
+      href: rcode.html
